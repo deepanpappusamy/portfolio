@@ -53,7 +53,7 @@ function App() {
                 <h1>I'm <span>Deepan</span></h1>
                 <p>Front-End-Developer</p>
                 <br/>
-                <a href='#contact' className='btn-home-contact'>Contact Me</a>
+                <a href='mailto:todeepan4714@gmail.com' target='_blank' className='btn-home-contact'>Contact Me</a>
               </div>
           </div>
           <div className='right01'>
@@ -71,9 +71,9 @@ function App() {
                 <FontAwesomeIcon icon={faQuoteLeft} className='quatation'/>
             </div>
             <div className='aboutsocial'>
-                  <a href='github'><FontAwesomeIcon icon={faGithub} className='git'/></a>
+                  <a href='https://github.com/deepanpappusamy' target='_blank'><FontAwesomeIcon icon={faGithub} className='git'/></a>
                   <a href='linkedin'><FontAwesomeIcon icon={faLinkedin} className='linkin'/></a>
-                  <a href='mail'><FontAwesomeIcon icon={faEnvelope} className='mail'/></a>
+                  <a href='mailto:todeepan4714@gmail.com' target='_blank'><FontAwesomeIcon icon={faEnvelope} className='mail'/></a>
                   {/* <a><FontAwesomeIcon icon={faInstagram} className='insta'/></a> */}
                   {/* <a><FontAwesomeIcon icon={faLink} /></a> */}
             </div>
@@ -82,7 +82,7 @@ function App() {
               <p>Hello There, I am Deepan and I have a strong passion for web development with  a MERN  Developer credential. I have a solid foundation in HTML 5, CSS 3, JavaScript Es6+, React and Redux.
                 <br/>
               Although my professional journey is in its early stages, I am a swift learner and can easily adjust to new methods and technologies. I am eager to contribute my skills and commitment to creating a dynamic and innovative website with your team</p>
-              <a href='CV' className='btn-about-resume'>Download Cv</a>
+              <a href='CV' className='btn-about-resume'>View Resume</a>
               <div className='skill-div'>
                 <h3 className='skill-h3'>Tecnical Skills</h3>
                 <ul>
@@ -90,14 +90,9 @@ function App() {
                   <li>CSS 3</li>
                   <li>JAVA SCRIPT ES 6+</li>
                   <li>REACT</li>
-                  <li>REDUX</li>
                   <li>GIT</li>
                   <li>GITHUB</li>
-                  <li>TAILWIND CSS</li>
                   <li>BOOTSTRAP</li>
-                  <li>JSX</li>
-                  <li>NODE</li>
-                  <li>SQL</li>
                 </ul>
               </div></div>
         </div>
@@ -129,10 +124,9 @@ function App() {
           </div>
           <div className='right04'>
             <form className='form' method='post' onSubmit={handleSubmit}>
-               <h2>Conect Us</h2>
+               <h2>Connect Us</h2>
                <input type='text' name='name' id='' onChange={handleChange} value={data.name} placeholder=' Name'/>
                <input type='email' name='email' id='' onChange={handleChange} value={data.email} placeholder=' example@gmail.com'/>
-               <input type='phone' name='phone' id='' onChange={handleChange} value={data.phone} placeholder=' Mobile Number'/>
                <input name='message' id='' cols='30' onChange={handleChange} value={data.message} placeholder='Message'/>
 
                <button type='submit' className='btn-contact-send'>send</button>
