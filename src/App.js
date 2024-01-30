@@ -53,7 +53,7 @@ function App() {
                 <h1>I'm <span>Deepan</span></h1>
                 <p>Front-End-Developer</p>
                 <br/>
-                <a href='mailto:todeepan4714@gmail.com' target='_blank' className='btn-home-contact'>Contact Me</a>
+                <a href='#contact' target='_blank' className='btn-home-contact'>Contact</a>
               </div>
           </div>
           <div className='right01'>
