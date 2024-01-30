@@ -82,7 +82,7 @@ function App() {
               <p>Hello There, I am Deepan and I have a strong passion for web development with  a MERN  Developer credential. I have a solid foundation in HTML 5, CSS 3, JavaScript Es6+, React and Redux.
                 <br/>
               Although my professional journey is in its early stages, I am a swift learner and can easily adjust to new methods and technologies. I am eager to contribute my skills and commitment to creating a dynamic and innovative website with your team</p>
-              <a href='https://drive.google.com/file/d/1vKU-m1RkPTgTPL16n1yKRJMU2JvEHA12/view?usp=sharing' target='_blank' className='btn-about-resume'>View Resume</a>
+              <a href='https://drive.google.com/file/d/15nYbs9kkWO3k15TVXu8rdKkuRcfiL1-Y/view?usp=sharing' target='_blank' className='btn-about-resume'>View Resume</a>
               <div className='skill-div'>
                 <h3 className='skill-h3'>Tecnical Skills</h3>
                 <ul>
@@ -105,13 +105,13 @@ function App() {
              {/* <div className='cave'></div> */}
              <h1>My Portfolio</h1>
               <div className='box'>
-                <div className='card'><img src={web01} alt='img'/><a href='#about'>Burger-Web</a></div>
-                <div className='card'><img src={web01} alt='img'/><a href='#about'>Burger-Web</a></div>
-                <div className='card'><img src={web01} alt='img'/><a href='#about'>Burger-Web</a></div>
+                <div className='card'><img src={web01} alt='img'/><a href='https://github.com/deepanpappusamy'>Burger-Web</a></div>
+                <div className='card'><img src={web01} alt='img'/><a href='https://github.com/deepanpappusamy'>Burger-Web</a></div>
+                <div className='card'><img src={web01} alt='img'/><a href='https://github.com/deepanpappusamy'>Burger-Web</a></div>
                 {/* <div className='card'><img src={web01} alt='img'/><a href='#about'>Burger-Web</a></div> */}
                 {/* <div className='card'><img src={web01} alt='img'/><a href='#about'>Burger-Web</a></div> */}
               </div>
-              <button className='btn-work-see'>See More</button>
+              <a href='https://github.com/deepanpappusamy' target='_blank' className='btn-work-see'>See More</a>
         </div>
         </div>
 
@@ -120,17 +120,14 @@ function App() {
         <div id='contact' className='page04'>
         <div className='contact-page'>
           <div className='left04'>
-          <img src={messagee} alt='img' className='message'/>
+          <h2 className='cnt-title'>Connect Us</h2>
+                  <p>I'm genuinely excited about establishing connections with developers, potential employers, and collaborators. I'm open new opportunities and always excited to engage with individuals who share a common passion within the vibrant tech community. Let's connect and explore the endless potential for collaboration and growth together.</p>
+                  <div className='social-contact'>
+                  <a href='mailto:todeepan4714@gmail.com' target='_blank' className='btn-connect'>Message</a>
+                  </div>
           </div>
           <div className='right04'>
-            <form className='form' method='post' onSubmit={handleSubmit}>
-               <h2>Connect Us</h2>
-               <input type='text' name='name' id='' onChange={handleChange} value={data.name} placeholder=' Name'/>
-               <input type='email' name='email' id='' onChange={handleChange} value={data.email} placeholder=' example@gmail.com'/>
-               <input name='message' id='' cols='30' onChange={handleChange} value={data.message} placeholder='Message'/>
-
-               <button type='submit' className='btn-contact-send'>send</button>
-            </form>
+          <img src={messagee} alt='img' className='message'/>
           </div>
         </div>
         </div>
