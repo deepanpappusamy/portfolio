@@ -11,20 +11,6 @@ function App() {
 
   const [menuOpen,setMenuOpen] = useState(false);
 
-  const [data,setData] = useState({name:"",email:"",phone:"",message:""});
-
-  const handleChange =(e) =>{
-        const name = e.target.name;
-        const value = e.target.value;
-        setData({...data, [name]: value});
-  }
- 
-  const handleSubmit =(e) =>{
-        e.preventDefault();
-        console.log(data);
-        alert("message send successfully");
-  }
-
   return (
     <div className="App">
       <header>
@@ -82,7 +68,7 @@ function App() {
               <p>Hello There, I am Deepan and I have a strong passion for web development with  a MERN  Developer credential. I have a solid foundation in HTML 5, CSS 3, JavaScript Es6+, React and Redux.
                 <br/>
               Although my professional journey is in its early stages, I am a swift learner and can easily adjust to new methods and technologies. I am eager to contribute my skills and commitment to creating a dynamic and innovative website with your team</p>
-              <a href='https://drive.google.com/file/d/15nYbs9kkWO3k15TVXu8rdKkuRcfiL1-Y/view?usp=sharing' target='_blank' className='btn-about-resume'>View Resume</a>
+              <a href='https://drive.google.com/file/d/17u-kDV1-5cwLnsOReyx0prn6mjZ44gTr/view?usp=sharing' target='_blank' className='btn-about-resume'>View Resume</a>
               <div className='skill-div'>
                 <h3 className='skill-h3'>Tecnical Skills</h3>
                 <ul>
