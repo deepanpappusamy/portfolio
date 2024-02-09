@@ -58,7 +58,7 @@ function App() {
             </div>
             <div className='aboutsocial'>
                   <a href='https://github.com/deepanpappusamy' target='_blank'><FontAwesomeIcon icon={faGithub} className='git'/></a>
-                  <a href='linkedin'><FontAwesomeIcon icon={faLinkedin} className='linkin'/></a>
+                  <a href='https://www.linkedin.com/in/deepanpappusamy'><FontAwesomeIcon icon={faLinkedin} className='linkin'/></a>
                   <a href='mailto:todeepan4714@gmail.com' target='_blank'><FontAwesomeIcon icon={faEnvelope} className='mail'/></a>
                   {/* <a><FontAwesomeIcon icon={faInstagram} className='insta'/></a> */}
                   {/* <a><FontAwesomeIcon icon={faLink} /></a> */}
@@ -68,7 +68,7 @@ function App() {
               <p>Hello There, I am Deepan and I have a strong passion for web development with  a MERN  Developer credential. I have a solid foundation in HTML 5, CSS 3, JavaScript Es6+, React and Redux.
                 <br/>
               Although my professional journey is in its early stages, I am a swift learner and can easily adjust to new methods and technologies. I am eager to contribute my skills and commitment to creating a dynamic and innovative website with your team</p>
-              <a href='https://drive.google.com/file/d/17u-kDV1-5cwLnsOReyx0prn6mjZ44gTr/view?usp=sharing' target='_blank' className='btn-about-resume'>View Resume</a>
+              <a href='https://drive.google.com/file/d/10HYp9cVmUvMnGM7CLFxH28grJl8Obce2/view?usp=sharing' target='_blank' className='btn-about-resume'>View Resume</a>
               <div className='skill-div'>
                 <h3 className='skill-h3'>Tecnical Skills</h3>
                 <ul>
