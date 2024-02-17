@@ -485,6 +485,13 @@ nav ul li a::after{
         grid-template-columns: 1fr 1fr;
     }
 }
+@media (max-width: 600px) {
+
+    .text{
+        margin-top: 50px;
+        line-height: 35px;
+    }
+}
 @media (min-width: 800px) {
 
     .home-page{

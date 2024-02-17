@@ -65,7 +65,7 @@ function App() {
             </div>
           </div>
           <div className='right02'><h1 className='abt-title'>About Me</h1>
-              <p>Hello There, I am Deepan and I have a strong passion for web development with  a MERN  Developer credential. I have a solid foundation in HTML 5, CSS 3, JavaScript Es6+, React and Redux.
+              <p>Hello There, I am Deepan and I have a strong passion for web development with  a MERN  Developer credential. I have a solid foundation in HTML 5, CSS 3, JavaScript Es6+ and React.
                 <br/>
               Although my professional journey is in its early stages, I am a swift learner and can easily adjust to new methods and technologies. I am eager to contribute my skills and commitment to creating a dynamic and innovative website with your team</p>
               <a href='https://drive.google.com/file/d/10HYp9cVmUvMnGM7CLFxH28grJl8Obce2/view?usp=sharing' target='_blank' className='btn-about-resume'>View Resume</a>
